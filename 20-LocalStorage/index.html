@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LocalStorage Example</title>
+</head>
+<body>
+    <h1>Datos de LocalStorage</h1>
+    <div id="output"></div>
+
+    <script src="index.js"></script>
+    <script>
+        // Mostrar los datos de LocalStorage en la página
+        const outputDiv = document.getElementById('output');
+        const usuario = localStorage.getItem('usuario');
+        const tema = localStorage.getItem('tema');
+
+        if (usuario) {
+            outputDiv.innerHTML += `<p>Usuario: ${usuario}</p>`;
+        }
+
+        if (tema) {
+            outputDiv.innerHTML += `<p>Tema: ${tema}</p>`;
+        } else {
+            outputDiv.innerHTML += `<p>Tema: No configurado</p>`;
+        }
+    </script>
+</body>
+</html>
