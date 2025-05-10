@@ -2,10 +2,6 @@
 
 ## Table of Contents
 
-### 00-Ejercicios
-- **Ejercicio-1.js**: Exercises on array manipulation, such as summing salaries, converting arrays to objects, searching for active users, and finding numbers in a matrix.
-- **Ejercicio-2.js**: Includes a "Sistema de Biblioteca" exercise and an additional exercise for managing students and courses in a school.
-
 ### 01 - Variables
 - **variables.js**: Demonstrates variable declarations (`var`, `let`, `const`) and their scopes.
 
