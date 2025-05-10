@@ -14,6 +14,9 @@ xhr.onload = function () {
         console.log('Response Data:', data);
     } else {
         console.error('Error:', xhr.status, xhr.statusText);
+        // Fallback: Provide default data
+        const fallbackData = [{ id: 1, title: 'Fallback Post', body: 'This is fallback content.' }];
+        console.log('Fallback Data:', fallbackData);
     }
 };
 
