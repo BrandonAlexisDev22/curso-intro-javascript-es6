@@ -29,3 +29,43 @@
 
 ### 08 - Strings
 - **strings.js**: Focuses on string manipulation, including concatenation, slicing, replacing, and checking substrings.
+
+### 09 - Math y Date
+- **math-date.js**: Covers mathematical operations and working with dates in JavaScript.
+
+### 10 - Try y Catch
+- **try.js**: Demonstrates error handling using `try`, `catch`, and `finally` blocks.
+
+### 11 - DOM
+- **dom-methods.js**: Explains methods to interact with the DOM, such as selecting, modifying, and deleting elements.
+- **dom.js**: Provides examples of DOM manipulation.
+
+### 12 - BOM
+- **bom.js**: Introduces the Browser Object Model (BOM) and its components, such as `window`, `navigator`, and `location`.
+
+### 13 - Traversing DOM
+- **traversing.js**: Demonstrates how to navigate through the DOM tree using parent, child, and sibling relationships.
+
+### 14 - Styling DOM
+- **styling.js**: Explains how to dynamically style DOM elements using JavaScript.
+
+### 15 - JSON
+- **example.json**: Example of a JSON file structure.
+- **json.js**: Demonstrates how to parse and stringify JSON data in JavaScript.
+
+### 16 - Async y Sync
+- **async.js**: Explains asynchronous programming in JavaScript.
+- **sync.js**: Covers synchronous programming and its differences from asynchronous programming.
+
+### 17 - AJAX
+- **ajax.js**: Demonstrates how to make HTTP requests using `XMLHttpRequest`.
+
+### 18 - Promises
+- **promises.js**: Explains how to work with JavaScript Promises for handling asynchronous operations.
+
+### 19 - Axios
+- **axios.js**: Shows how to use the Axios library for making HTTP requests.
+
+### 20 - LocalStorage
+- **index.html**: Example HTML file to demonstrate LocalStorage usage.
+- **index.js**: Demonstrates how to store, retrieve, and delete data using LocalStorage.
